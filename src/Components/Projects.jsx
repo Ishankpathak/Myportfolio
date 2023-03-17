@@ -32,8 +32,7 @@ const Projects = () => {
 
         <a href="https://fashionsblog.netlify.app/" target="_blank"><li>FashionBlog Website</li></a> 
         <p>This Blog website is made from tailwind css </p>
-        <a href="https://multitexteditor.netlify.app/" target="_blank"><li>TextEditor using React</li></a> 
-        
+       
        </ul>
     </div>
 
