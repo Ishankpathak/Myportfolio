@@ -12,6 +12,12 @@ const Projects = () => {
 
     <div className="container mt-5 project">
        <ul>
+        <a href="https://dailycrypto-update.netlify.app/" target="_blank"><li>Crypto Update WebApp</li></a> 
+        <p>This Web App can be used to check the latest price , amount , and other information of more than 100 famous crypto currencies </p>
+
+        <a href="https://dictionarybro.netlify.app/" target="_blank"><li>Dictionary Web App</li></a> 
+        <p>This Web App can be used to search words and can be used as a dictionary , it uses free dictionary api </p>
+
         <a href="https://multitexteditor.netlify.app/" target="_blank"><li>TextEditor using React</li></a> 
         <p>This Web App can be used to Edit text like converting to upperCase , lowercase . It can count number of words in a paragraph </p>
         <a href="https://countriesweather.netlify.app" target="_blank"><li>Weather APP using React</li></a> 
