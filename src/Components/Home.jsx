@@ -1,6 +1,5 @@
 import React from 'react'
-// import myimage from '../images/my_image.jpg'
-import myimag from '../images/first.jpg'
+import myimage from '../images/first.jpg'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -9,8 +8,8 @@ const Home = () => {
      <div className="container text-center mt-2">
   <div className="row col-reverse justify-content-center d-flex align-items-center">
 
-    <div className="col-sm-12 col-md-6 mt-2 p-2 rotate-in-bl  ">
-     <img src={myimag} alt="" className='image w-75  container-fluid rounded-full rotate-180' />
+    <div className="col-sm-12 col-md-6 mt-2 p-2 rotate-in-bl image ">
+     <img src={myimage} alt="" className='image w-75 container-fluid ' style={{borderRadius:"50%" }} />
     </div>
 
     <div className="col-sm-12 col-md-6  mt-2 p-2 front-text ">
