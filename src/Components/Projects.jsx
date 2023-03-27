@@ -12,6 +12,9 @@ const Projects = () => {
 
     <div className="container mt-5 project">
        <ul>
+        <a href="https://google-apis-clone.netlify.app/" target="_blank"><li>Google Clone</li></a> 
+        <p>Google Clone using google api and react </p>
+
         <a href="https://dailycrypto-update.netlify.app/" target="_blank"><li>Crypto Update WebApp</li></a> 
         <p>This Web App can be used to check the latest price , amount , and other information of more than 100 famous crypto currencies </p>
 

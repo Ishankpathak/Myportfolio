@@ -44,7 +44,7 @@ const Skills = () => {
            <div className="progress mt-3">
           <div className="progress-bar progress-bar-striped" role="progressbar" style={{width: '80%'}} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">80%</div>
           </div>
-          <div className="d-flex justify-content-center">Git</div>
+          <div className="d-flex justify-content-center">Git & Github</div>
 
 
         </div>
