@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink  } from 'react-router-dom'
 
 const Navbar = () => {
+  // const [mode , setmode] = useState(false)
   return (
     <div>
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark text-lg">
   <div className="container-fluid">
     <div className="navbar-brand" >Ishank Pathak</div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +26,10 @@ const Navbar = () => {
           <NavLink className="nav-link" to="/projects">Projects</NavLink>
         </li>
         
+       {/* <button className=' bg-dark border-0  ' style={{fontSize:"2rem"}} onClick={()=>setmode(!mode)}> {
+        mode?<div>🌞</div>:<div>🌙</div>
+       } </button>  */}
+
       </ul>
     
     </div>
