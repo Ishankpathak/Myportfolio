@@ -21,7 +21,7 @@ const Home = () => {
      
      <Link type="button" to="/about" className="btn btn-outline-info mt-5">About</Link>
     </div>
-
+     ishank
    </div>
 
 </div>
